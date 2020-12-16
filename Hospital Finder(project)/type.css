@@ -1,0 +1,28 @@
+body{
+  background-image: url('images/c.png');
+  background-size: cover;
+}
+.A{
+  width:25%;
+  height: 50%;
+  background:white    ;
+  border-radius: 3%;
+  top: 45%;
+  left: 45%;
+  display: grid;
+  position:absolute;
+  transform: translate(-40%,-40%);
+  text-align: center;
+  justify-content: between;
+}
+.A a{
+  background-color: #4CAF50;
+  color: white;
+  width: 50%;
+  margin: 50px;
+  padding: 100px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+}

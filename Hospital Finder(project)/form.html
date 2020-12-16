@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset=”ISO-8859-1″>
+<title>Insert title here</title>
+<script type=”text/javascript”>
+
+function save(){
+var user = document.getElementById(“user”).value;
+var pwd = document.getElementById(“pwd”).value;
+
+alert(“username”+user+”password”+pwd);
+}
+
+</script>
+<link rel="stylesheet" href="form.css">
+</head>
+<body bgcolor=”#E6E6FA”>
+<form name=”regi” action=”register1.jsp” method=”post”>
+<h2>Account Creation</h2>
+
+<label for=”r1″ id=”fn”>Name :</label>
+<input type=”text” name=”fname” id=”r1″><br/>
+&nbsp;&nbsp;&nbsp;<label  for=”r4″ id=”pwd”>Password :</label>
+<input type=”password” name=”pass” id=”r4″><br/>
+
+&nbsp;&nbsp;&nbsp;<label  for=”r5″ id=”em”>Email :</label>
+<input type=”text” name=”email” id=”r5″><br/>
+
+&nbsp;&nbsp;<label  for=”r6″ id=”mn”>Mobile No :</label>
+<input type=”text” name=”mno” id=”r6″><br/>
+<button type=”submit” value=”Submit” id=”button”>create account</button>
+<a href=”index.html”>go to Home</a>
+
+</form>
+</body>
+</html>

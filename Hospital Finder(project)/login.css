@@ -1,0 +1,63 @@
+body{
+  background-image: url('images/c.png');
+  background-size: cover;
+}
+.B{
+  width:25%;
+  height: 50%;
+  background:white    ;
+  border-radius: 3%;
+  top: 45%;
+  left: 45%;
+  position:absolute;
+  transform: translate(-40%,-40%);
+  text-align: center;
+  justify-content: space-around;
+}
+.B img{
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  position: absolute;
+  top: -10%;
+  left: 40%;
+  left:calc(55%  -55px);
+  text-align: center;
+}
+.B p{
+  margin: 7%;
+  padding: 3%;
+  font-weight: bold;
+  background-color: #B5F7C4;
+}
+.B input[type="text"],input[type="password"]
+{
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 30px;
+  color: green;
+  font-size: 16px;
+}
+.B a{
+  text-decoration: underline;
+  font-size: 12px;
+  line-height: 15px;
+  color: darkgery;
+}
+.button {
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button:hover {opacity: 1}
